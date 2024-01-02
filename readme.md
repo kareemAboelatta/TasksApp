@@ -12,6 +12,16 @@ Simple ToDo is a sleek and user-friendly iOS app designed to help you manage you
 - **Interactive List:** View all your tasks in a neatly organized list.
 - **Update Tasks:** Mark tasks as favorite with a simple tap.
 
+## Screenshots
+
+<p float="left">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/62241386/293740893-f14d7a31-2af9-4210-aa58-f79df1756e5b.png" width="400" />
+
+</p>
+
+
+
+
 ## Installation
 To run Simple ToDo on your local machine, follow these steps:
 
