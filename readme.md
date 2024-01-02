@@ -35,7 +35,7 @@ To run Simple ToDo on your local machine, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/kareemAboelatta/SimpleToDo.git
+   git clone https://github.com/kareemAboelatta/TasksApp.git
    ```
    
    
