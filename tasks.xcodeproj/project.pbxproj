@@ -11,6 +11,9 @@
 		35E3FDB52B44718400A432C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E3FDB42B44718400A432C6 /* ContentView.swift */; };
 		35E3FDB72B44718500A432C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E3FDB62B44718500A432C6 /* Assets.xcassets */; };
 		35E3FDBA2B44718500A432C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E3FDB92B44718500A432C6 /* Preview Assets.xcassets */; };
+		35E3FDC12B4471D800A432C6 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 35E3FDC02B4471D800A432C6 /* readme.md */; };
+		35E3FDC42B44723300A432C6 /* SimpleToDoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35E3FDC22B44723300A432C6 /* SimpleToDoModel.xcdatamodeld */; };
+		35E3FDCA2B44728500A432C6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E3FDC92B44728500A432C6 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		35E3FDB42B44718400A432C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35E3FDB62B44718500A432C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E3FDB92B44718500A432C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35E3FDC02B4471D800A432C6 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		35E3FDC32B44723300A432C6 /* SimpleToDoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleToDoModel.xcdatamodel; sourceTree = "<group>"; };
+		35E3FDC92B44728500A432C6 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,9 @@
 		35E3FDA62B44718400A432C6 = {
 			isa = PBXGroup;
 			children = (
+				35E3FDC02B4471D800A432C6 /* readme.md */,
 				35E3FDB12B44718400A432C6 /* tasks */,
+				35E3FDC22B44723300A432C6 /* SimpleToDoModel.xcdatamodeld */,
 				35E3FDB02B44718400A432C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +59,7 @@
 		35E3FDB12B44718400A432C6 /* tasks */ = {
 			isa = PBXGroup;
 			children = (
+				35E3FDC92B44728500A432C6 /* CoreDataManager.swift */,
 				35E3FDB22B44718400A432C6 /* tasksApp.swift */,
 				35E3FDB42B44718400A432C6 /* ContentView.swift */,
 				35E3FDB62B44718500A432C6 /* Assets.xcassets */,
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E3FDBA2B44718500A432C6 /* Preview Assets.xcassets in Resources */,
+				35E3FDC12B4471D800A432C6 /* readme.md in Resources */,
 				35E3FDB72B44718500A432C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +149,8 @@
 			files = (
 				35E3FDB52B44718400A432C6 /* ContentView.swift in Sources */,
 				35E3FDB32B44718400A432C6 /* tasksApp.swift in Sources */,
+				35E3FDCA2B44728500A432C6 /* CoreDataManager.swift in Sources */,
+				35E3FDC42B44723300A432C6 /* SimpleToDoModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +354,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35E3FDC22B44723300A432C6 /* SimpleToDoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35E3FDC32B44723300A432C6 /* SimpleToDoModel.xcdatamodel */,
+			);
+			currentVersion = 35E3FDC32B44723300A432C6 /* SimpleToDoModel.xcdatamodel */;
+			path = SimpleToDoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 35E3FDA72B44718400A432C6 /* Project object */;
 }
